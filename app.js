@@ -6,7 +6,7 @@ const parser = new RSSParser();
 let weiboData = [];
 
 async function updateWeiboData() {
-  const feed = await parser.parseURL('你的微博RSS源地址');
+  const feed = await parser.parseURL('https://rsshub.app/weibo/user/7457195803');
   weiboData = feed.items;
 }
 
