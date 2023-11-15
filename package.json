@@ -1,0 +1,13 @@
+{
+  "name": "weibo-rss-reader",
+  "version": "1.0.0",
+  "description": "A simple web app to display Weibo feeds from an RSS source.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "rss-parser": "^3.9.0"
+  }
+}
