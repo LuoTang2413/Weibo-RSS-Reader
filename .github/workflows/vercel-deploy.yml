@@ -2,7 +2,7 @@ name: Deploy to Vercel
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Run every 5 minutes
+    ## 暂停 - cron: '*/5 * * * *' # Run every 5 minutes
 
 jobs:
   build:
